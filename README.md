@@ -16,12 +16,12 @@ npm install<br><br>
 # How to use
 Once you have the project open you should be able to open your terminal and type gulp in the command line and magic will take place. Here are the command you can run.<br><br>
 
-<strong>default:<strong> Compile and watch for changes<br>
-scripts: Compile the JavaScript files<br>
-sass: Compile the Sass styles<br>
-images: Copy the newer to the build folder<br>
-vendors: Copy the vendors to the build folder<br>
-watch: Watch for any changes on the each section<br>
+<strong>default:</strong> Compile and watch for changes<br>
+<strong>scripts:</strong> Compile the JavaScript files<br>
+<strong>sass:</strong> Compile the Sass styles<br>
+<strong>images:</strong> Copy the newer to the build folder<br>
+<strong>vendors: </strong>Copy the vendors to the build folder<br>
+<strong>watch: </strong>Watch for any changes on the each section<br>
 The gulp command is the best choice for you most likley. Go to the project folder in the console and execute gulp, it will compile the project and start a server that will refresh every time you change something in the code. Gulp will be watching for changes and will tell you how to access the project from local and public url. Every browser that point to that url will be auto refreshed. As an extra feature for testing purpose any interaction on one browser will be reflected on any others. Try it on a phone, tablet and pc at the same time.<br><br>
 
 Once you have the project running in the terminal you can delete the partial<br><br>
